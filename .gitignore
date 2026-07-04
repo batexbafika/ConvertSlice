@@ -1,0 +1,25 @@
+ 
+# Virtual environments
+.venv/
+nenv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Generated files
+uploads/*
+outputs/*
+temp/*
+
+# Keep folders in Git
+!uploads/.gitkeep
+!outputs/.gitkeep
+!temp/.gitkeep
+
+# VS Code
+.vscode/
+
+# Operating System files
+.DS_Store
+Thumbs.db
